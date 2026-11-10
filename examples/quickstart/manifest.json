@@ -1,0 +1,36 @@
+{
+  "profile": "spec20241118",
+  "scope_note": "人工构造的一个示例路口：1个轮廓、1个边界线要素、4个检测区",
+  "coordinate_basis": "wgs84",
+  "basis_evidence": "示例坐标直接按 WGS84 经纬度构造，用于演示数据处理流程",
+  "output_prefix": "demo",
+  "deduplicate_exact": true,
+  "expected_bbox": [
+    119.99,
+    29.99,
+    120.01,
+    30.01
+  ],
+  "expected_layers": [
+    "1_cross_outline_pl",
+    "2_cross_border_ln"
+  ],
+  "inputs": [
+    {
+      "role": "hdmap",
+      "layer": "1_cross_outline_pl",
+      "path": "outline.geojson"
+    },
+    {
+      "role": "hdmap",
+      "layer": "2_cross_border_ln",
+      "path": "border.geojson"
+    },
+    {
+      "role": "detector",
+      "layer": "detector_demo_001",
+      "path": "detectors.geojson",
+      "intersection_id": "demo_001"
+    }
+  ]
+}

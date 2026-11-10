@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LaneId": "101",
+        "LaneEventDetectorCategoryId": "1",
+        "name": "示例到达区"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              119.99991,
+              30.00058
+            ],
+            [
+              119.99995,
+              30.00058
+            ],
+            [
+              119.99995,
+              30.000625
+            ],
+            [
+              119.99991,
+              30.000625
+            ],
+            [
+              119.99991,
+              30.00058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LaneId": "101",
+        "LaneEventDetectorCategoryId": "2",
+        "name": "示例进入区"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              119.99991,
+              30.00003
+            ],
+            [
+              119.99995,
+              30.00003
+            ],
+            [
+              119.99995,
+              30.000075
+            ],
+            [
+              119.99991,
+              30.000075
+            ],
+            [
+              119.99991,
+              30.00003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LaneId": "111",
+        "LaneEventDetectorCategoryId": "3",
+        "name": "示例通过区"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.00005,
+              30.00003
+            ],
+            [
+              120.00009,
+              30.00003
+            ],
+            [
+              120.00009,
+              30.000075
+            ],
+            [
+              120.00005,
+              30.000075
+            ],
+            [
+              120.00005,
+              30.00003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LaneId": "111",
+        "LaneEventDetectorCategoryId": "4",
+        "name": "示例驶离区"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.00005,
+              30.00058
+            ],
+            [
+              120.00009,
+              30.00058
+            ],
+            [
+              120.00009,
+              30.000625
+            ],
+            [
+              120.00005,
+              30.000625
+            ],
+            [
+              120.00005,
+              30.00058
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

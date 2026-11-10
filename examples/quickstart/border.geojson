@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "示例道路两侧边界"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              119.9998,
+              29.9999
+            ],
+            [
+              119.9998,
+              30.00075
+            ]
+          ],
+          [
+            [
+              120.0002,
+              29.9999
+            ],
+            [
+              120.0002,
+              30.00075
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
