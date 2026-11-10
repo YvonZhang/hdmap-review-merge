@@ -1,0 +1,4 @@
+interface:
+  display_name: "高精地图审核与合稿"
+  short_description: "审核高精地图和检测区，整理合稿、样式及 MineData 导入包"
+  default_prompt: "使用 $hdmap-review-merge 审核并合并我指定批次的高精地图和检测区，输出分层成果、样式及问题清单。"
